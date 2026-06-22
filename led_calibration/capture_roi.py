@@ -144,7 +144,7 @@ def find_fixed_roi(frame, T_ct):
         "angle_deg": angle_deg,
     }
 
-def process_folder(target_folder, output_folder='./fixed_roi_output/'):
+def process_folder(target_folder, output_folder='./roi_output/'):
     with open(join(target_folder, 'led_data.json')) as f:
         data = json.load(f)
     annotated_dir = join(output_folder, 'annotated')

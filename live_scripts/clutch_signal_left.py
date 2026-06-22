@@ -27,7 +27,7 @@ from common_left import *
 # Configuration
 # =========================
 CALIBRATION_FILE      = "./led_calibration_left.json"
-MODEL_FILE            = "./led_detection_CNN.pt.pt"
+MODEL_FILE            = "./led_detection_CNN.pt"
 
 EXPECTED_W = 640
 EXPECTED_H = 480

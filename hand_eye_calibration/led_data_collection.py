@@ -19,10 +19,7 @@ LEFT  = False
 # must be RIGHT or LEFT
 side = RIGHT
 
-# If True, wipe ../led_calibration/led_data/frames and
-# ../led_calibration/led_data/annotated_images at the start of every run
-# so the new capture starts from a clean slate. Set to False to keep
-# previously captured frames around.
+# do not change this variable!
 COLLECT_DATA = True
 
 EXPECTED_W = 640

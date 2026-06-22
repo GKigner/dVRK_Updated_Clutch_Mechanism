@@ -34,7 +34,7 @@ CALIBRATION_FILE = HERE / f"led_calibration_{side_tag}.json"   # written by labe
 _CALIB_FILE      = HERE / f"camera_intrinsics_{side_tag}.json"
 
 TARGET_FOLDER       = HERE / f"led_data_{side_tag}"
-OUTPUT_FOLDER       = HERE / f"fixed_roi_output_{side_tag}"
+OUTPUT_FOLDER       = HERE / f"roi_output_{side_tag}"
 
 with open(_CALIB_FILE) as f:
     _calib = json.load(f)

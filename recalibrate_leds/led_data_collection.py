@@ -30,10 +30,7 @@ HERE = Path(__file__).resolve().parent
 LIVE_SCRIPTS_DIR = HERE.parent / "live_scripts"
 
 
-# If True, wipe ../led_calibration/led_data/frames and
-# ../led_calibration/led_data/annotated_images at the start of every run
-# so the new capture starts from a clean slate. Set to False to keep
-# previously captured frames around.
+# do not change this variable!
 COLLECT_DATA = True
 
 EXPECTED_W = 640
@@ -151,7 +148,8 @@ def collect(cam_thread, arm, link3_wrt_camera):
 
 
 def main():
-
+    argv = crtk.ral.parse_argv(sys.argv[1:])
+    ral = crtk.ral("led_test_collection")
     if (side == RIGHT):
         arm = Arm(ral, "MTMR")
         link3_wrt_camera = np.loadtxt(str(LIVE_SCRIPTS_DIR / "link3_wrt_camera_right.txt"))
@@ -160,9 +158,6 @@ def main():
         link3_wrt_camera = np.loadtxt(str(LIVE_SCRIPTS_DIR / "link3_wrt_camera_left.txt"))
     else:
         raise SystemExit("side error - check that you formatted the side variable correctly.")
-
-    argv = crtk.ral.parse_argv(sys.argv[1:])
-    ral = crtk.ral("led_test_collection")
 
     camera = setup_camera(index=0)
     cam_thread = CameraThread(camera)
