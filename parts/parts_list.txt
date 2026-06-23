@@ -1,4 +1,3 @@
-These are the parts ordered from vendors
 Spring (2): https://www.thespringstore.com/pc010-156-14000-mw-0670-c-n-in.html
 Camera (2): https://www.amazon.com/Arducam-Monochrome-Distortion-Microphones-Compatible/dp/B096M5DKY6?th=1
 USB-A Extendors (2): https://www.amazon.com/Extension-Cable%EF%BC%8C20FT-Extender-Keyboard-Playstation/dp/B0836S4249/ref=sr_1_1_sspa?crid=13PZOEGYIJ88Z&dib=eyJ2IjoiMSJ9.6VzIwwMBuM-3dnrTNjlBFbSdm7VxurgKtKmewBZPozYgdd7WGKgsPVSkB2df9A8YFRfCeEzz_EfZTmoKdw8DeM5klMzle87gvqK6MBdZiIR501JIVQqaVCuxMal4DgTfwftLIzXL5hBQSEeWZ62cmLBQMt5I4LwqwqCWwp7dzGFcI9h9Fj6z4tunGrRLAgOBbuLrSW_O1paXviS5gAvuSoCrBugliF6Jfqxs7Mr0srU.pNinj1Emu5QBomZEVHaoqCc4rcwlefTFwXHl5UOJEHo&dib_tag=se&keywords=20%2Bfoot%2Busb%2Ba%2Bextension&qid=1774474020&sprefix=20%2Bfoot%2Busb%2Ba%2Bextension%2Caps%2C164&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1
@@ -6,8 +5,4 @@ USB-A Extendors (2): https://www.amazon.com/Extension-Cable%EF%BC%8C20FT-Extende
 Batteries: https://www.amazon.com/YKM-LR41-Batteries-AG3-Thermometer/dp/B0CFVSW7W1/ref=sr_1_3_sspa?crid=311C572C4S88W&dib=eyJ2IjoiMSJ9.bjFUFV36ZfidOtn0EZGSGQ4WtJPKkvmZo15QW80f4kfD2GAUizqBnYo-DcVROqqO4n9f3b9A4AX1VHfcm0CbnqWyt1XQd-08cQJiNJ6rQGqi9CkPwLKnCgAwY3AVCUkz9fZ7rzPJ0hFUJpqAZQTiaOeDZkD5UivJFb0qa0bHqqUPTbPI_UFQKQScZ2Kser5_GKHQSNNz703ZarBziRkPheCTm4MD-uFfhN2ZhCeSYLDqe1asiNkGyE1tPeA2SL6OKAFRhqkRzONcxhZvF92ipkU1OMuLH5y4_qzw52FqJn8.7OlzoHnF8ccEUKQlG9QlqJovnsKQsEemOsdZ0AR8zyg&dib_tag=se&keywords=lr41%2Balkaline%2Bbattery&qid=1779305144&sprefix=LR41%2Balk%2Caps%2C106&sr=8-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1 (should work)
 Filters (2): https://www.thorlabs.com/item/fbh850-40
 
-This is the bear minimum needed. I reccomend buying multiple battery packs and many springs to make it easy to
-replace the apparatus that is on the MTM itself. You should never have to replace the camera, filters, and USB
-extendors. I will provide some setup tips to ensure you don't break the cameras in the instrctions. 
-
-The other parts will need to be printed twice and are attached as SLDPRT and STL files in this directory.
+3D printed parts (found in this directory)
